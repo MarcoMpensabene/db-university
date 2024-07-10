@@ -55,7 +55,7 @@ WHERE `teachers`.`phone` IS NULL;
 degree_id, inserire un valore casuale)
 
 INSERT INTO `students` (`degree_id` , `name`, `surname`, `date_of_birth`, `fiscal_code`, `enrolment_date` , `registration_number`, `email`)
-VALUES (  'Marco', 'Pensabene', '1997-04-08', 'QPXVYW51Z02T871B', CURDATE(), 12345, 'mia.email@qualcosa.com');
+VALUES ('193' , 'Marco', 'Pensabene', '1997-04-08', 'QPXVYW51Z02T871B', CURDATE(), 12345, 'mia.email@qualcosa.com');
 
 10. Cambiare il numero dell’ufficio del professor Pietro Rizzo in 126
 
